@@ -5,8 +5,6 @@ import android.util.Log;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.example.usthweather.ForecastFragment;
-
 
 public class WeatherActivity extends AppCompatActivity {
     private static final String TAG = "WeatherActivity";

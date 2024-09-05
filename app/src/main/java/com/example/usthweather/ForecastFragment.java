@@ -74,13 +74,13 @@ public class ForecastFragment extends Fragment {
         textView.setTextSize(25);
         textView.setPadding(25, 25, 25, 25);
 
-        ImageView imageView = new ImageView(getActivity());
-        imageView.setImageResource(R.drawable.baseline_sunny_24); // Replace with your actual weather icon resource
-        imageView.setPadding(25, 25, 55, 25);
+//        ImageView imageView = new ImageView(getActivity());
+//        imageView.setImageResource(R.drawable.baseline_sunny_24); // Replace with your actual weather icon resource
+//        imageView.setPadding(25, 25, 55, 25);
 
 
         layout.addView(textView);
-        layout.addView(imageView);
+//        layout.addView(imageView);
 
 
         return layout;
